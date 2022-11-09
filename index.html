@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <main>
+    <header class="cabecalho cabecalho-mobile"><img src="./images/logo.svg" alt="logo"></header>
+    <div class="div-img">
+      <picture>
+        <source media="(min-width: 1024px)" srcset="./images/hero-desktop.jpg">
+        <img class="hero-img" src="./images/hero-mobile.jpg" alt="">
+      </picture>
+    </div>
+    <div class="container">
+      <header class="cabecalho cabecalho-desktop"><img src="./images/logo.svg" alt="logo"></header>
+      <section>
+        <form>
+          <h1><span>We're</span> coming soon</h1>
+
+          <p>Hello fellow shoppers! We're currently building our new fashion store.
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+          <fieldset class="email-container">
+            <input class="input-email" type="email" placeholder="Email Adress" required>
+            <button type="submit"><img src="./images/icon-arrow.svg"></button>
+            <span class="mensagem-erro"></span>
+          </fieldset>
+        </form>
+      </section>
+      <footer>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="https://github.com/Inkekk">Kine</a>.
+        </p>
+      </footer>
+    </div>
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
