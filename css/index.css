@@ -28,6 +28,10 @@ form {
   gap: 50px;
 }
 
+.cabecalho-desktop{
+  display: none;
+}
+
 h1 {
   font-size: 37px;
   font-weight: 700;
@@ -109,6 +113,9 @@ button:hover {
   .cabecalho-mobile {
     display: none;
   }
+
+ .cabecalho-desktop{
+  display: block;
 
   .cabecalho {
     padding-top: 3rem;
